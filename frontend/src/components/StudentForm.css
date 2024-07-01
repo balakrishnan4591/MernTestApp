@@ -1,0 +1,33 @@
+.student-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.student-form h2 {
+  margin-bottom: 20px;
+}
+
+.student-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.student-form button {
+  padding: 10px;
+  background-color: wheat;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: aqua;
+}
